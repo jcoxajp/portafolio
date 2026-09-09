@@ -31,7 +31,7 @@ export default function Navbar() {
   const handleAnchorClick = (href: string) => {
     setIsOpen(false)
     if (location.pathname !== '/') {
-      window.location.href = `/${href}`
+      window.location.href = `${import.meta.env.BASE_URL}${href}`
       return
     }
     const el = document.querySelector(href)
