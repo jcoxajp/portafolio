@@ -11,7 +11,7 @@ export const techStack: TechCategory[] = [
       { name: 'JWT' },
       { name: 'Helmet' },
       { name: 'Rate Limiting' },
-      { name: 'Proc. Almacenados' },
+      { name: 'Stored Procedures' },
       { name: 'OOP (JS)' },
       { name: 'PM2' },
     ],

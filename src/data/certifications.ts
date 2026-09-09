@@ -4,11 +4,11 @@ export const certifications: Certification[] = [
   {
     id: 'databases',
     name: 'Base de Datos',
-    issuer: 'Institución placeholder',
+    issuer: 'Edutek',
   },
   {
     id: 'eset',
-    name: 'Administración de Consola ESET',
+    name: 'Administración Básica de Consola ESET',
     issuer: 'ESET',
   },
 ]
